@@ -1,0 +1,86 @@
+.card-container{
+    width: 400px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px -5px;
+}
+
+.image-container img{
+    overflow: hidden;
+    height: 60px;
+    border-radius: 90px;
+    position: relative;
+    left: 70px;
+}
+
+.text-container{
+    position: relative;
+    top: -60px;
+    left: 150px;
+}
+
+.card-content{
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+.card-title{
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.section{
+    margin: auto;
+}
+
+.candidats{
+    position: relative;
+    float: left;
+    width: 230px;
+    left: 70px;
+}
+
+.candidats br{
+    text-align:justify;
+}
+
+.garants{
+    position: relative;
+}
+
+.money{
+    text-align:justify;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    color: dodgerblue;
+}
+
+.btn{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.btn button{
+    padding: 1rem 8rem;
+    background-color: dodgerblue;
+    border: none;
+    transition: 0.2s;
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+.btn button text{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn button:hover{
+    background-color:rgba(27, 156, 252, 0.1);
+}
