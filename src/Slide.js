@@ -6,7 +6,7 @@ import Card from './Card/Card';
 
 const settings = {
     transitionDuration: 500,
-    // infinite: true,
+    infinite: true,
     indicators: true,
     arrows: true
 }
